@@ -58,3 +58,5 @@ fn move_token(
     token.transfer(&contract_address, from, &(&max_spend_amount - transfer_amount));
 
 }
+
+mod test;
